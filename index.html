@@ -22,6 +22,10 @@
           href="https://fonts.googleapis.com/css?family=Tangerine">
     
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&icon_names=html,css,js,palette,settings&display=block" />
+<link rel="apple-touch-icon" sizes="180x180" href="/favicon_io (2)/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon_io (2)/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon_io (2)/favicon-16x16.png">
+<link rel="manifest" href="/favicon_io (2)/site.webmanifest">
 <link rel="stylesheet" href="./style.css">
 <title> MY PORTFOLIO | HOME</title>
 </head> 
@@ -31,9 +35,9 @@
  <header>
 
     <!-- logo  -->
-<svg width="190" height="40" xmlns="http://www.w3.org/2000/svg">
+<svg width="300" height="40" xmlns="http://www.w3.org/2000/svg">
   <rect width="100%" height="100%" fill="transparent" />
-   <text x="90" y="30"   text-anchor="middle" fill="#ffffff" id="textSvg">JANE DOE</text>
+   <text x="130" y="30"   text-anchor="middle" fill="#ffffff" id="textSvg">MARVELLOUS</text>
 </svg> 
 <!-- darkmode -->
         <button type="button" class="toggle-container" id="themeToggle" aria-label="Toggle Dark mode" aria-controls="themeToggle" title="Switch background mode">
@@ -81,7 +85,7 @@
  </header>
  <!-- main content -->
   <main id="mainContent"> 
-    <h1>HELLO I'M JANE DOE <br> I'M A WEB DEVELOPER</h1>
+    <h1>HELLO I'M <br> MARVELLOUS EDIAGBONYA <br> I'M A WEB DEVELOPER</h1>
 <div id="hero">
     <div class="hero_content">
 
@@ -90,7 +94,7 @@
 I’ve been teaching myself design, German, and web development, driven by curiosity and the belief that skill is earned through persistence. I enjoy hunting for resources, experimenting, and figuring things out piece by piece until they make sense.
 </p>
 
-<a href="#contact" class="btn"> Get In Touch</a>
+<a href="#contact" class="btn"><i class="fa-solid fa-user-tie"></i> Get In Touch</a>
     </div>
     <figure class="hero_figure">
         <img src="/images/me.jpg" alt="My profile picture"   loading="lazy" >
@@ -99,12 +103,12 @@ I’ve been teaching myself design, German, and web development, driven by curio
 <section id="skill">
     <h2>My Skills</h2>
     <div class="skills">
-<span class="material-symbols-outlined">html</span>
-<span class="material-symbols-outlined">css</span>
-<span class="material-symbols-outlined">js</span>
-<p>GIT</p>
-<p>DESIGN</p>
-<p>VERSION CONTROL</p>
+        <!-- add accessibility features -->
+        <i class="fa-brands fa-html5 skillIcon" ></i>
+<i class="fa-brands fa-css skillIcon"></i>
+<i class="fa-brands fa-square-js skillIcon"></i>
+<i class="fa-brands fa-square-git skillIcon"></i>
+
     </div>
 </section>
 <section id="about">
@@ -128,7 +132,7 @@ For me, learning has never been about perfection — it’s about consistent pro
 
 <!--         download cvv here
  -->    
-<a href="assets/Marvellous_Resume.pdf" target="_blank" class="btn" title="View my CV In a new tab"> View my CV</a>
+<a href="assets/Marvellous_Resume.pdf" target="_blank" class="btn" title="View my CV In a new tab"><i class="fa-solid fa-download"></i> View my CV</a>
         </div>
        
 </div>
@@ -141,66 +145,77 @@ For me, learning has never been about perfection — it’s about consistent pro
             <!-- project card 1 -->
             <div class="card">
                 <figure>
-                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1172&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Screenshot of  Techhub  landing page Project" class="projectImg" loading="lazy">
+                    <img src="images/aboutme.jpg" alt="Screenshot of  about me page Project" class="projectImg" loading="lazy">
                 </figure>
                 <div class="content">
-                    <h3>TechHub Website</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href=""   class="circle" title="View my Project">&RightArrowBar; </a>
+                    <h3>🧭 About Me</h3>
+                    <p>Every project I’ve built connects to who I am, curious, hands-on, and always improving.
+This page gives a little peek into my journey so farand who I am, please go take a look, and get to know me.</p>
+                    <a href="https://about-eixjh8usp-marvellous-projects-3e122c6d.vercel.app/"   class="circle" title="View my Project"><i class="fa-solid fa-arrow-right"></i> </a>
                 </div>
             </div>
                         <!-- project card 2 -->
             <div class="card">
                 <figure>
-                    <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8d2ViJTIwZGV2ZWxvcG1lbnR8ZW58MHx8MHx8fDA%3D" alt="Screenshot of Blog  Homepage Project"  class="projectImg" loading="lazy">
+                    <img src="images/ratecard.jpg" alt="Screenshot of my RateCard  Homepage Project"  class="projectImg" loading="lazy">
                 </figure>
                 <div class="content">
-                    <h3>Blog Page</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href=""  class="circle" title="View my Project">&rightarrow;</a> </div>
+                    <h3>💼 Ratecard Project</h3>
+                    <p>
+Designed this as a clear and professional way to showcase my services and pricing.
+Simple, responsive, and straight to the point — check the live link to see how it all comes together.</p>
+                    <a href="https://marveeysrepo.github.io/myRateCard/"  class="circle" title="View my Project"><i class="fa-solid fa-arrow-right"></i></a> </div>
             </div>
                         <!-- project card 3 -->
             <div class="card">
                 <figure>
-                    <img src="https://images.unsplash.com/photo-1632882765546-1ee75f53becb?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aHRtbHxlbnwwfHwwfHx8MA%3D%3D" alt="Screenshot of To-do List Project  "  class="projectImg" loading="lazy">
+                    <img src="images/photograph.jpg" alt="Screenshot of  photography page"  class="projectImg" loading="lazy">
                 </figure>
                 <div class="content">
-                    <h3>To-do List Page</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href=""  class="circle">&rightarrow;</a>
+                    <h3>📸 Photography Project</h3>
+                    <p>
+                        Captured moments, edited with intention, and presented with style.
+I built this to showcase  clean web presentation and card layout, see the live project for yourself.
+</p>
+                    <a href="https://marveeysrepo.github.io/meinFotograf/"  class="circle"><i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
                         <!-- project card 4 -->
             <div class="card">
+            <p class="incoming">Incoming..</p>
+
                 <figure>
                     <img src="https://images.unsplash.com/photo-1669023414166-a4cc7c0fe1f5?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y3NzfGVufDB8fDB8fHww" alt="Screenshot of Weather App project"  class="projectImg" loading="lazy">
                 </figure>
                 <div class="content">
                     <h3>Weather App</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href=""   class="circle" title="View my Project">&rightarrow;</a>
+<!--                     <p>Incoming....</p>
+ -->                    <a href=""   class="circle" title="View my Project"><i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
                         <!-- project card 5 -->
             <div class="card">
+                                <p class="incoming">Incoming..</p>
+
                 <figure>
                     <img src="https://images.unsplash.com/photo-1667372393086-9d4001d51cf1?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8amF2YXNjcmlwdHxlbnwwfHwwfHx8MA%3D%3D" alt="Screenshot of  Color Switcher App Project"  class="projectImg" loading="lazy">
                 </figure>
                 <div class="content">
                     <h3>Color Switcher</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href=""   class="circle" title="View my Project">&rightarrow;</a>
+<!--                     <p>Incoming....</p>
+ -->                    <a href=""   class="circle" title="View my Project"><i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
                         <!-- project card 6 -->
             <div class="card">
+                <p class="incoming">Incoming..</p>
                 <figure>
                     <img src="https://images.unsplash.com/photo-1659079631665-eb95370fb173?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGphdmFzY3JpcHR8ZW58MHx8MHx8fDA%3D" alt="Screenshot of  E-commerce Project Page"  class="projectImg" loading="lazy">
                 </figure>
                 <div class="content">
                     <h3>E-commerce Website</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href=""   class="circle" title="View my Project">&rightarrow;</a>
+<!--                     <p>Incoming....</p>
+ -->                    <a href=""   class="circle" title="View my Project"><i class="fa-solid fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -236,7 +251,6 @@ For me, learning has never been about perfection — it’s about consistent pro
     </form>
 </div>
 </section>
-
  </main>
 
  <!-- footer -->
@@ -245,19 +259,20 @@ For me, learning has never been about perfection — it’s about consistent pro
   
 <ul id="socialLinks">
     <li>
-<a href="#">Github</a>
+<a href="https://github.com/marveeysrepo"><i class="fa-brands fa-square-github"></i>Github</a>
     </li>
     <li>
-<a href="#">Facebook</a>
+        <!-- add twitter link! -->
+<a href="https://web.facebook.com/goodlifebymarveey"><i class="fa-brands fa-square-x-twitter"></i>X</a>
     </li>
     <li>
-<a href="#">LinkedIn</a>
+<a href="https://www.linkedin.com/in/marvellous-ediagbonya/"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
     </li>
     <li>
-<a href="#">WhatsApp</a>
+<a href="https:wa.me/2347053902558"><i class="fa-brands fa-square-whatsapp"></i>WhatsApp</a>
     </li>
 </ul>
-  <p class="reserved"> &copy; 2025. All Rights Reserved. Marveey Goodlife </p>
+  <p class="reserved"> &copy; 2025. All Rights Reserved. Marvellous Goodlife </p>
 </div>
 
     <button id="scrollBtn" class="scrollLink" type="button" aria-label="Scroll to top button">&uArr;</button>
